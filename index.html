@@ -14,298 +14,245 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <style>
+    .left-column, .right-column {
+      height: 100vh;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .left-column {
+      background-color: #f9f9f9;
+    }
+    .right-column {
+      background-color: #fff;
+    }
+    .section {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: #fff;
+    }
+    .news-section {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: #f9f9f9;
+    }
+  </style>
 </head>
 <body>
 
-
 <!-- Navigation -->
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-	  <div class="container">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
-				  <li><a href="index.html">Home</a></li>
-                  <li><a href="#educaiton">Education</a></li> 
-				  <li><a href="#publications">Publications</a></li> 
-                  <li><a href="#workexperience">Work Experiences</a></li> 
-                  <li><a href="#rewards">Honors & Awards</a></li> 
-                  <li><a href="#professional">Professional Services</a></li> 
-		  </ul>
-		</div>
-	  </div>
-	</nav>
-  
-  <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-
-            <!-- Entries Column -->
-            <div class="col-md-12">
-                
-                <!-- Main Image -->
-                
-
-                                <!-- Main Image and Text -->
-                <div class="row d-flex align-items-center"> 
-                    <div class="col-md-3"> <!-- Adjust the column size as per your requirements -->
-                        <img class="img-responsive" src="profile.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto;" width="80%" height="auto"><br><p style="text-align:center; font-size:24px;"><strong>Dianer Yu</strong></p>
-                    </div>
-                    
-                    <div class="col-md-9" style="text-align: justify;"> <!-- Adjust the column size as per your requirements -->
-                            My name is <strong>Dianer Yu</strong>, a <strong>Data Science Ph.D. candidate</strong> in the <strong><a href="http://dsmi.tech/", target="_blank">DSMI Lab</a></strong> and an <strong>Academic Tutor</strong> at the School of Computer Science, Faculty of Engineering and Information Technology, University of Technology Sydney (UTS), under the supervision of <strong><a href="https://profiles.uts.edu.au/Guandong.Xu" target="_blank">Chair Prof. Guandong Xu</a></strong> and <strong><a href="https://staffportal.curtin.edu.au/staff/profile/view/qian-li-24c96504/" target="_blank">Dr. Qian Li</a></strong>. 
-                            Before that, I received MSc in 2021 and BSc degrees in 2022 in Computer Science from UTS.<br><br>
-
-                            My papers have been published in multiple top-tier conferences and journals in the field of Artificial Intelligence and Data Science, such as TKDE, WWW, SIGIR, CIKM, Neurocomputing, PAKDD, DASFAA, etc.
-                            I am proficient in many programming languages such as SQL, Java, R, and Python, enabling me to develop effective solutions to complex research problems.<br><br>
-
-
-                            My general research interests involve many topics, such as:
-
-                            <ul>
-                                <li>Artificial Intelligence</li>
-                                <li>Data Science, Data mining, 
-                                <li>Causal Inference</li>
-                                <li>Recommendation systems</li>
-                                <li>Explainable machine learning</li>
-                            </ul>
-
-                            <br>
-
-                            <b>Email: Dianer.Yu-1@student.uts.edu.au / yde244910158@gmail.com<br></b>
-                            Location: CB02.12, University of Technology Sydney, 15 Broadway Rd, Ultimo, NSW, 2007, Australia.
-                            <br><br>
-
-                            Visit my <a href="https://scholar.google.com/citations?user=gZnR4bIAAAAJ&hl=en" target="_blank">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Dianer-Yu" target="_blank">ResearchGate</a> | <a href="https://www.linkedin.com/in/dianer-yu-330448144/" target="_blank">LinkedIn</a> for more details.<br><br>
-
-
-                            <strong>I am actively seeking a position in academia where I can contribute my research expertise, teaching skills, and programming proficiency.</strong>
-                    </div>
-                </div>
-
-
-                <div style="margin-top:3%; text-align:justify;">                
-                    <h2 style="clear: both;">News</h2>
-                    <ul>
-                        <li>One paper is accepted by DASFAA24 on March 2024.
-                        </li>       
-                        <li>Two papers are accepted by TKDE and TOIS on Jan 2024.
-                        </li>                       
-                        <li>One paper is accepted by TKDE on Sep 2023.
-                        </li>
-                        <li>One paper is accepted by TORS on Nov 2023.
-                        </li>
-                        <li>One paper is accepted by CIKM 2023.
-                        </li>
-                        <li>One paper is accepted by Neurocomputing on Feb 2023.
-                        </li>
-                        <li>Dianer is successful in UTS President's Scholarship.
-                        </li>                        
-                        <li>Dianer is successful in CSIRO Data61 scholarship by Data61 scholarship selection committee.
-                        </li>                        
-                        <li>Dianer has been rewarded as 2021 Postgraduate Dean's List.
-                        </li>                       
-                        <li>Two papers are accepted by TKDE and SIGIR22.
-                        </li>                        
-                        <li>Dianer started his PhD journey at UTS, one paper is accepted by PAKDD22 Core A.
-                        </li>                        
-                        <li>Dianer has received Msc degree from UTS on 2021.
-                        </li>                         
-                        <li>Dianer has been rewarded as 2020 Postgraduate Dean's List.
-                        </li>                         
-                        <li>Dianer has received BSc degree from UTS on 2018.
-                        </li>
-                    </ul>
-                </div>
-
-
-                <div style="margin-top:3%; text-align:justify;">                
-                    <h2 id="educaiton" style="clear: both;">Education</h2>
-
-                    <ul>
-                        <li>
-                            <strong>Doctor of Philosophy: Causal Model for Recommendation</strong><br>
-                            University of Technology Sydney, Sydney, Australia<br>
-                            Duration: Jan 2022 - current<br>
-                            Supervisors: 
-                            <a href="https://profiles.uts.edu.au/Guandong.Xu" target="_blank">Chair Prof. Guandong Xu</a> and 
-                            <a href="https://staffportal.curtin.edu.au/staff/profile/view/qian-li-24c96504/" target="_blank">Dr. Qian Li</a>
-                        </li>
-                <br>
-                        <li>
-                            <strong>Master of Information Technology</strong><br>
-                            University of Technology Sydney, Sydney, Australia<br>
-                            Duration: 2021 - 2022<br>
-                            Awards: High Distinction Average, Dean's List in both 2020 and 2021
-                        </li>
-                <br>
-                        <li>
-                            <strong>Bachelor of Science in Information Technology</strong><br>
-                            University of Technology Sydney, Sydney, Australia<br>
-                            Duration: 2015 - 2018<br>
-                            Awards: Distinction Average
-                        </li>
-                    </ul>
-                </div>
-
-
-            <!-- Publications -->
-                <h2 id="publications">Publications</h2>        
-
-                <ol>
-                <li class="paper">
-                    <a href="https://ieeexplore.ieee.org/document/10273224" target="_blank">Counterfactual Explainable Conversational Recommendation</a> 
-                    <br><b>DIANER YU</b>, Qian Li, Xiangmeng Wang, Qing Li, Guandong Xu. 
-                    <br>IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>), IF 9.0, Q1, Core A*, CCF A
-                </li>
-                <li class="paper">
-                    <a href="https://dl.acm.org/doi/abs/10.1145/3583780.3614803" target="_blank">Causality-guided Graph Learning for Session-based Recommendation</a> 
-                    <br><b>DIANER YU</b>, Qian Li, Hongzhi Yin, Guandong Xu. 
-                    <br>International Conference on Information and Knowledge Management (<b>CIKM 2023</b>), CCF B, Core A
-                </li>
-                <li class="paper">
-                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231223001212" target="_blank">Deconfounded Recommendation via Causal Intervention</a> 
-                    <br><b>DIANER YU</b>, Qian Li, Xiangmeng Wang, Guandong Xu. 
-                    <br><b>Neurocomputing</b>, IF 6.0, JCR-Q1
-                </li>
-                <li class="paper">
-                    <a href="https://link.springer.com/chapter/10.1007/978-3-031-05933-9_20" target="_blank">Semantics-Guided Disentangled Learning for Recommendation</a> 
-                    <br><b>DIANER YU</b>, Qian Li, Xiangmeng Wang, Zhichao Wang, Yanan Cao, Guandong Xu. 
-                    <br>Pacific-Asia Conference on Knowledge Discovery and Data Mining (<b>PAKDD 2022</b>), Core A
-                </li>
-                <li class="paper">
-                    <a href="" target="_blank">Reinforced Path Reasoning for Counterfactual Explainable Recommendation</a> 
-                    <br>Xiangmeng Wang, Qian Li, <b>DIANER YU</b>, Qing Li, Guandong Xu. 
-                    <br>IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>), IF 9.0, Q1, Core A*, CCF A
-                </li>
-                <li class="paper">
-                    <a href="https://ieeexplore.ieee.org/document/9736612" target="_blank">Causal Disentanglement for Semantics-Aware Intent Learning</a> 
-                    <br>Xiangmeng Wang, Qian Li, <b>DIANER YU</b>, Peng Cui, Guandong Xu. 
-                    <br>IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>), IF 9.0, Q1, Core A*, CCF A
-                </li>
-                <li class="paper">
-                    <a href="https://dl.acm.org/doi/10.1145/3477495.3532021" target="_blank">MGPolicy: Meta Graph Enhanced Off-policy Learning for Recommendations</a> 
-                    <br>Xiangmeng Wang, Qian Li, <b>DIANER YU</b>, Guandong Xu. 
-                    <br>ACM SIGIR Conference on Research and Development in Information Retrieval (<b>SIGIR 2022</b>), Core A*, CCF A
-                </li>
-                <li class="paper">
-                    <a href="https://dl.acm.org/doi/10.1145/3485447.3512072" target="_blank">Off-policy Learning over Heterogeneous Information for Recommendation</a> 
-                    <br>Xiangmeng Wang, Qian Li, <b>DIANER YU</b>, Guandong Xu. 
-                    <br>The Web Conference (<b>WWW 2022)</b>, Core A*, CCF A
-                </li>
-                <li class="paper">
-                    <a href="" target="_blank">Counterfactual Explanation for Fairness in Recommendation</a> 
-                    <br>Xiangmeng Wang, Qian Li, <b>DIANER YU</b>, Qing Li, Guandong Xu. 
-                    <br>ACM Transactions on Information Systems (<b>TOIS</b>), IF 5.6, Q1, Core A, CCF A
-                </li>
-                <li class="paper">
-                    <a href="https://dl.acm.org/doi/10.1145/3485447.3512072" target="_blank">Constrained Off-policy Learning over Heterogeneous Information for Fairness-aware Recommendation</a> 
-                    <br>Xiangmeng Wang, Qian Li, <b>DIANER YU</b>, Qing Li, Guandong Xu. 
-                    <br>ACM Transactions on Recommender Systems (<b>TORS</b>)
-                </li>
-                <li class="paper">
-                    <a href="" target="_blank">Counterfactual Debiasing for Multi-behavior Recommendations</a> 
-                    <br>Sirui Huang, Xiangmeng Wang, Qian Li, <b>DIANER YU</b>, Qing Li, Guandong Xu. 
-                    <br>International Conference on Database Systems for Advanced Applications (<b>DASFAA 2024</b>), CCF B, Core B
-                </li>
-                <li class="paper">
-                    <a href="https://dl.acm.org/doi/10.1145/3495018.3501131" target="_blank">Reasonability Analysis and Application of Solar Energy Equipment Installation in QLD Smart City Using Information Technologies</a> 
-                    <br>Mingyue Guo, <b>DIANER YU</b>, Shicheng Wu. 
-                    <br>International Conference on Artificial Intelligence and Advanced Manufacture (<b>AIAM 2021</b>)
-                </li>
-            </ol>
-
-
-
-
-            
-
-                <div style="margin-top:3%; text-align:justify;">                
-                    <h2 id="workexperience" style="clear: both;">Work Experiences</h2>
-
-                    <ul>                            
-                        <strong style="font-size: large;">Academic Tutor</strong> at <strong style="font-size: large;">University of Technology Sydney (1/2022 - current)</strong> 
-                        <li>Providing AI-related lectures and tutorials to postgraduate and undergraduate students, such as 41004 (AI/Analytics capstone project), 42046 (Data Processing using R) and 48024 (Programming 2 Java&Python).</li>
-                        <li>Organizing capstone projects for more than 200 students and providing supervision for multiple groups of students.</li>
-                        <li>Designed and developed a new subject about React front-end framework, guiding students to learn the React through a hands-on project-based approach.</li>
-                        <li>Marking all the assignments and resolving the daily questions for students.</li>
-                        <li>Offering continuous support through Q\&A sessions, assessments, and prompt resolution of students' daily inquiries, fostering a conducive learning environment.</li>
-                        <li>Collaborating with senior educators to refine course materials and teaching methodologies, contributing to the ongoing improvement of the academic curriculum.</li>
-
-                    </ul>      
-                    <ul>  
-                        <strong style="font-size: large;">Developer Programmer</strong> at <strong style="font-size: large;">All Employment Solutions, Sydney (8/2018 - 2/2022)</strong><br>
-                        <li>Writing JAVA and Python program codes to create backend system and databases.</li>
-                        <!-- <strong style="font-size: large;">Developer Programmer</strong> at <strong style="font-size: large;">All Employment Solutions, Sydney</strong> (8/2018 - 8/2019, 8/2020 - 2/2022)</strong><br> -->
-                        <li>Writing efficient SQL query to extract the needed information from complex environments.</li>
-                        <li>Using Python to custom build machine learning model to resolve customer classification related question for the company’s marketing purpose. </li>
-                        <li>Writing instruction manuals and guidelines, applying relevant changes according to program updates, and providing internal trainings to relevant departments on the using of the programs.</li>
-                        <li>Maintaining, updating and enhancing the stability and efficiency of the codes.</li>
-                        <li>Providing expertise in data storage structures, data mining, data warehouse and data cleansing.</li>
-                        <li>Processing millions-levels data and translating facts to inform strategic business decisions.</li>
-                        <li>Conducting internal tests with the other departments, collecting feedbacks, and making relevant adjustments and enhancements.</li>
-                        <!-- <li>Providing professional suggestions and advices in relation to developments.</li> -->
-                        <li>Formulating development plans on the basis of needs analysis and reporting to managers.</li>
-                    </ul>
-                    <ul>
-                        <strong style="font-size: large;">Developer Programmer</strong> at <strong style="font-size: large;">Bedworks, Sydney (8/2019 - 4/2020)</strong><br>
-                        <li>Agile development methodology used to develop and implement an online shopping management system through PrestaShop platform.</li>
-                        <li>Writing JAVA and PHP program codes, and creating and structuring databases, testing programs and debugging errors.</li>
-                        <li>Maintaining, updating and enhancing the stability and efficiency of the codes.</li>
-                        <li>Experienced in debugging, implementing unit test strategies and test cases during agile development methodology.</li>
-                        <li>Taking advantage of Cloud based storage AWS S3 that allows ultimate scalability and high availability.</li>
-                        <li>Integrate new payment method into front-end PrestaShop platform such as AfterPay payment. Change plugin and module compatibility when a new version of the plugin needs to be installed into an older version.</li>
-                        <!-- <li>Conducting internal tests with the other departments, collecting feedbacks, and making relevant adjustments and enhancements.</li> -->
-                        <li>Increase customer traffic through creating Google shopper bot tracking for GA and add Rich Snippets. Monitor and add firewall through Cloudflare service.</li>
-                    </ul>
-                </div>
-
-            </div> 
-
-
-
-            
-          <div class="col-md-10">    
-                <h2 id="rewards">Honors & Awards</h2>
-                <ul>
-                <li>UTS FEIT Postgraduate Dean's List,2022</li>
-                <li>UTS FEIT Postgraduate Dean's List,2021</li>
-                <li>UTS President's Scholarship, 2022</li>
-                <li>International Research Scholarship, 2022</li>
-                <li>CSIRO Data61 Full Scholarship</li>
-                <li>UTS Vice Chancellor's Conference Fund,2022</li>
-                </ul>
-            </div>
-        </div>
-            
-          <div class="col-md-10">    
-                <h2 id="professional">Professional Services</h2>
-                <ul>
-                    <strong style="font-size: large;">Program Committee Member / Reviewer</strong>
-                <li>2024: KDD, PAKDD, DASFAA, SIGIR, Supercomputing, Discover Computing</li>
-                <li>2023: ICDM, KDD, PAKDD, PRICAI, SIGIR, CIKM, WSDM, EMNLP, TIST, TORS</li>
-                <li>2022: PRICAI, KDD, WWW, EMNLP, WSDM, ICDM, DASFAA</li>
-                <li>2021: ICONIP, WSDM, WWW, KNOSYS</li>
-                </ul>
-            </div>
-        </div>
-
-
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     </div>
-    <!-- /.container -->
-    
-    <!-- Other people may like it too! -->
-    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
-    
-</body>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#workexperience">Work Experiences</a></li>
+        <li><a href="#honorsawards">Honors & Awards</a></li>
+        <li><a href="#professionalservices">Professional Services</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
+<!-- Page Content -->
+<div class="container">
+  <div class="row">
+    <!-- Left Column -->
+    <div class="col-md-9 left-column">
+      <div class="section">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img class="img-responsive" src="profile.jpg" alt="Dianer Yu" style="display: block; margin: 0 auto;" width="80%" height="auto"><br>
+            <p style="text-align:center; font-size:24px;"><strong>Dianer Yu</strong></p>
+          </div>
+          <div class="col-md-9" style="text-align: justify;">
+            <p>My name is <strong>Dianer Yu</strong>, a <strong>Data Science Ph.D. candidate</strong> in the <strong><a href="http://dsmi.tech/" target="_blank">DSMI Lab</a></strong> and an <strong>Academic Tutor</strong> at the School of Computer Science, Faculty of Engineering and Information Technology, University of Technology Sydney (UTS), under the supervision of <strong><a href="https://profiles.uts.edu.au/Guandong.Xu" target="_blank">Chair Prof. Guandong Xu</a></strong> and <strong><a href="https://staffportal.curtin.edu.au/staff/profile/view/qian-li-24c96504/" target="_blank">Dr. Qian Li</a></strong>. Before that, I received MSc in 2021 and BSc degrees in 2022 in Computer Science from UTS.</p>
+            <p>My papers have been published in multiple top-tier conferences and journals in the field of Artificial Intelligence and Data Science, such as TKDE, WWW, SIGIR, CIKM, Neurocomputing, PAKDD, DASFAA, etc. I am proficient in many programming languages such as SQL, Java, R, and Python, enabling me to develop effective solutions to complex research problems.</p>
+            <p>My general research interests involve many topics, such as:</p>
+            <ul>
+              <li>Artificial Intelligence</li>
+              <li>Data Science, Data mining,</li>
+              <li>Causal Inference</li>
+              <li>Recommendation systems</li>
+              <li>Explainable machine learning</li>
+            </ul>
+            <p>Email: Dianer.Yu-1@student.uts.edu.au / yde244910158@gmail.com<br>
+            Location: CB02.12, University of Technology Sydney, 15 Broadway Rd, Ultimo, NSW, 2007, Australia.</p>
+            <p>
+              Visit my 
+              <a href="https://scholar.google.com/citations?user=gZnR4bIAAAAJ&hl=en" target="_blank" class="btn btn-primary">Google Scholar</a>
+              <a href="https://www.researchgate.net/profile/Dianer-Yu" target="_blank" class="btn btn-primary">ResearchGate</a>
+              <a href="https://www.linkedin.com/in/dianer-yu-330448144/" target="_blank" class="btn btn-primary">LinkedIn</a>
+            </p>
+            <strong>I am actively seeking a position in academia where I can contribute my research expertise, teaching skills, and programming proficiency.</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="education">
+        <h2>Education</h2>
+        <ul>
+          <li><strong>Doctor of Philosophy: Causal Model for Recommendation</strong><br>
+          University of Technology Sydney (UTS), Sydney, Australia<br>
+          Duration: Jan 2022 - current<br>
+          Supervisors: <a href="https://profiles.uts.edu.au/Guandong.Xu" target="_blank">Chair Prof. Guandong Xu</a> and <a href="https://staffportal.curtin.edu.au/staff/profile/view/qian-li-24c96504/" target="_blank">Dr. Qian Li</a></li>
+          <li><strong>Master of Information Technology</strong><br>
+          University of Technology Sydney (UTS), Sydney, Australia<br>
+          Duration: 2021 - 2022<br>
+          Awards: High Distinction Average, Dean's List in both 2020 and 2021</li>
+          <li><strong>Bachelor of Science in Information Technology</strong><br>
+          University of Technology Sydney (UTS), Sydney, Australia<br>
+          Duration: 2015 - 2018<br>
+          Awards: Distinction Average</li>
+        </ul>
+      </div>
+
+      <div class="section" id="publications">
+        <h2>Publications</h2>
+        <ol>
+          <li><a href="https://ieeexplore.ieee.org/document/10273224" target="_blank">Counterfactual Explainable Conversational Recommendation</a><br>
+          <b>DIANER YU</b>, Qian Li, Xiangmeng Wang, Qing Li, Guandong Xu.<br>
+          IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>), IF 9.0, Q1, Core A*, CCF A</li>
+          <li><a href="https://dl.acm.org/doi/abs/10.1145/3583780.3614803" target="_blank">Causality-guided Graph Learning for Session-based Recommendation</a><br>
+          <b>DIANER YU</b>, Qian Li, Hongzhi Yin, Guandong Xu.<br>
+          International Conference on Information and Knowledge Management (<b>CIKM 2023</b>), CCF B, Core A</li>
+          <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231223001212" target="_blank">Deconfounded Recommendation via Causal Intervention</a><br>
+          <b>DIANER YU</b>, Qian Li, Xiangmeng Wang, Guandong Xu.<br>
+          <b>Neurocomputing</b>, IF 6.0, JCR-Q1</li>
+          <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-05933-9_20" target="_blank">Semantics-Guided Disentangled Learning for Recommendation</a><br>
+          <b>DIANER YU</b>, Qian Li, Xiangmeng Wang, Zhichao Wang, Yanan Cao, Guandong Xu.<br>
+          Pacific-Asia Conference on Knowledge Discovery and Data Mining (<b>PAKDD 2022</b>), Core A</li>
+          <li><a href="" target="_blank">Reinforced Path Reasoning for Counterfactual Explainable Recommendation</a><br>
+          Xiangmeng Wang, Qian Li, <b>DIANER YU</b>, Qing Li, Guandong Xu.<br>
+          IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>), IF 9.0, Q1, Core A*, CCF A</li>
+          <li><a href="https://ieeexplore.ieee.org/document/9736612" target="_blank">Causal Disentanglement for Semantics-Aware Intent Learning</a><br>
+          Xiangmeng Wang, Qian Li, <b>DIANER YU</b>, Peng Cui, Guandong Xu.<br>
+          IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>), IF 9.0, Q1, Core A*, CCF A</li>
+          <li><a href="https://dl.acm.org/doi/10.1145/3477495.3532021" target="_blank">MGPolicy: Meta Graph Enhanced Off-policy Learning for Recommendations</a><br>
+          Xiangmeng Wang, Qian Li, <b>DIANER YU</b>, Guandong Xu.<br>
+          ACM SIGIR Conference on Research and Development in Information Retrieval (<b>SIGIR 2022</b>), Core A*, CCF A</li>
+          <li><a href="https://dl.acm.org/doi/10.1145/3485447.3512072" target="_blank">Off-policy Learning over Heterogeneous Information for Recommendation</a><br>
+          Xiangmeng Wang, Qian Li, <b>DIANER YU</b>, Guandong Xu.<br>
+          The Web Conference (<b>WWW 2022)</b>, Core A*, CCF A</li>
+          <li><a href="" target="_blank">Counterfactual Explanation for Fairness in Recommendation</a><br>
+          Xiangmeng Wang, Qian Li, <b>DIANER YU</b>, Qing Li, Guandong Xu.<br>
+          ACM Transactions on Information Systems (<b>TOIS</b>), IF 5.6, Q1, Core A, CCF A</li>
+          <li><a href="https://dl.acm.org/doi/10.1145/3485447.3512072" target="_blank">Constrained Off-policy Learning over Heterogeneous Information for Fairness-aware Recommendation</a><br>
+          Xiangmeng Wang, Qian Li, <b>DIANER YU</b>, Qing Li, Guandong Xu.<br>
+          ACM Transactions on Recommender Systems (<b>TORS</b>)</li>
+          <li><a href="" target="_blank">Counterfactual Debiasing for Multi-behavior Recommendations</a><br>
+          Sirui Huang, Xiangmeng Wang, Qian Li, <b>DIANER YU</b>, Qing Li, Guandong Xu.<br>
+          International Conference on Database Systems for Advanced Applications (<b>DASFAA 2024</b>), CCF B, Core B</li>
+          <li><a href="https://dl.acm.org/doi/10.1145/3495018.3501131" target="_blank">Reasonability Analysis and Application of Solar Energy Equipment Installation in QLD Smart City Using Information Technologies</a><br>
+          Mingyue Guo, <b>DIANER YU</b>, Shicheng Wu.<br>
+          International Conference on Artificial Intelligence and Advanced Manufacture (<b>AIAM 2021</b>)</li>
+        </ol>
+      </div>
+
+      <div class="section" id="workexperience">
+        <h2>Work Experiences</h2>
+        <ul>
+          <li>
+            <strong style="font-size: larger;">Academic Tutor</strong> at <strong>University of Technology Sydney (1/2022 - current)</strong><br>
+            <ul>
+              <li>Providing AI-related lectures and tutorials to postgraduate and undergraduate students, such as 41004 (AI/Analytics capstone project), 42046 (Data Processing using R) and 48024 (Programming 2 Java&Python).</li>
+              <li>Organizing capstone projects for more than 200 students and providing supervision for multiple groups of students.</li>
+              <li>Designed and developed a new subject about React front-end framework, guiding students to learn the React through a hands-on project-based approach.</li>
+              <li>Marking all the assignments and resolving the daily questions for students.</li>
+              <li>Offering continuous support through Q&A sessions, assessments, and prompt resolution of students' daily inquiries, fostering a conducive learning environment.</li>
+              <li>Collaborating with senior educators to refine course materials and teaching methodologies, contributing to the ongoing improvement of the academic curriculum.</li>
+            </ul>
+          </li><br>
+          <li>
+            <strong style="font-size: larger;">Developer Programmer</strong> at <strong>All Employment Solutions, Sydney (8/2018 - 2/2022)</strong><br>
+            <ul>
+              <li>Writing JAVA and Python program codes to create backend system and databases.</li>
+              <li>Writing efficient SQL query to extract the needed information from complex environments.</li>
+              <li>Using Python to custom build machine learning model to resolve customer classification related question for the company’s marketing purpose.</li>
+              <li>Writing instruction manuals and guidelines, applying relevant changes according to program updates, and providing internal trainings to relevant departments on the using of the programs.</li>
+              <li>Maintaining, updating and enhancing the stability and efficiency of the codes.</li>
+              <li>Providing expertise in data storage structures, data mining, data warehouse and data cleansing.</li>
+              <li>Processing millions-levels data and translating facts to inform strategic business decisions.</li>
+              <li>Conducting internal tests with the other departments, collecting feedbacks, and making relevant adjustments and enhancements.</li>
+              <li>Formulating development plans on the basis of needs analysis and reporting to managers.</li>
+            </ul>
+          </li><br>
+          <li>
+            <strong style="font-size: larger;">Developer Programmer</strong> at <strong>Bedworks, Sydney (8/2019 - 4/2020)</strong><br>
+            <ul>
+              <li>Agile development methodology used to develop and implement an online shopping management system through PrestaShop platform.</li>
+              <li>Writing JAVA and PHP program codes, and creating and structuring databases, testing programs and debugging errors.</li>
+              <li>Maintaining, updating and enhancing the stability and efficiency of the codes.</li>
+              <li>Experienced in debugging, implementing unit test strategies and test cases during agile development methodology.</li>
+              <li>Taking advantage of Cloud based storage AWS S3 that allows ultimate scalability and high availability.</li>
+              <li>Integrate new payment method into front-end PrestaShop platform such as AfterPay payment. Change plugin and module compatibility when a new version of the plugin needs to be installed into an older version.</li>
+              <li>Increase customer traffic through creating Google shopper bot tracking for GA and add Rich Snippets. Monitor and add firewall through Cloudflare service.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section" id="honorsawards">
+        <h2>Honors & Awards</h2>
+        <ul>
+          <li>UTS FEIT Postgraduate Dean's List, 2022</li>
+          <li>UTS FEIT Postgraduate Dean's List, 2021</li>
+          <li>UTS President's Scholarship, 2022</li>
+          <li>International Research Scholarship, 2022</li>
+          <li>CSIRO Data61 Full Scholarship</li>
+          <li>UTS Vice Chancellor's Conference Fund, 2022</li>
+        </ul>
+      </div>
+
+      <div class="section" id="professionalservices">
+        <h2>Services: PC Member & Reviewer</h2>
+        <ul>
+          <li>2024: KDD, PAKDD, DASFAA, SIGIR, Supercomputing, Discover Computing</li>
+          <li>2023: ICDM, KDD, PAKDD, PRICAI, SIGIR, CIKM, WSDM, EMNLP, TIST, TORS</li>
+          <li>2022: PRICAI, KDD, WWW, EMNLP, WSDM, ICDM, DASFAA</li>
+          <li>2021: ICONIP, WSDM, WWW, KNOSYS</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="col-md-3 right-column">
+      <div class="news-section">
+        <h2>News</h2>
+        <ul>
+          <li>One paper is accepted by DASFAA24 on March 2024.</li>
+          <li>Two papers are accepted by TKDE and TOIS on Jan 2024.</li>
+          <li>One paper is accepted by TKDE on Sep 2023.</li>
+          <li>One paper is accepted by TORS on Nov 2023.</li>
+          <li>One paper is accepted by CIKM 2023.</li>
+          <li>One paper is accepted by Neurocomputing on Feb 2023.</li>
+          <li>Dianer is successful in UTS President's Scholarship.</li>
+          <li>Dianer is successful in CSIRO Data61 scholarship by Data61 scholarship selection committee.</li>
+          <li>Dianer has been rewarded as 2021 Postgraduate Dean's List.</li>
+          <li>Two papers are accepted by TKDE and SIGIR22.</li>
+          <li>Dianer started his PhD journey at UTS, one paper is accepted by PAKDD22 Core A.</li>
+          <li>Dianer has received MSc degree from UTS on 2021.</li>
+          <li>Dianer has been rewarded as 2020 Postgraduate Dean's List.</li>
+          <li>Dianer has received BSc degree from UTS on 2018.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
