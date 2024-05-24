@@ -40,6 +40,33 @@
       margin-bottom: 20px;
       background-color: #f9f9f9;
     }
+    .info {
+            flex: 2;
+            padding-left: 20px;
+        }
+    .info h1 {
+            color: blue;
+        }
+    .info h1 span {
+            font-weight: normal;
+        }
+    .info p {
+            margin: 5px 0;
+        }
+    .info a {
+            color: blue;
+            text-decoration: none;
+        }
+    .info .links {
+            margin-top: 20px;
+        }
+    .info .links a {
+            margin-right: 10px;
+        }
+    .section h3 span {
+            font-style: italic;
+            font-size: 0.8em; /* Adjust the size as needed */
+        }
   </style>
 </head>
 <body>
@@ -73,13 +100,41 @@
   <div class="row">
     <!-- Left Column -->
     <div class="col-md-9 left-column">
+
+
       <div class="section">
         <div class="row">
           <div class="col-md-3 text-center">
             <img class="img-responsive" src="profile.jpg" alt="Dianer Yu" style="display: block; margin: 0 auto;" width="80%" height="auto"><br>
-            <p style="text-align:center; font-size:24px;"><strong>Dianer Yu</strong></p>
           </div>
           <div class="col-md-9" style="text-align: justify;">
+            <h3>Dianer YU       <span>Ph.D. Student</span></h3>
+            <p style="font-size:16px;"><a href="http://dsmi.tech/" target="_blank">Data Science and Machine Intelligence (DSMI) Lab</a></p>
+            <p style="font-size:16px;">School of Computer Science, Faculty of Engineering and Information Technology<br>University of Technology Sydney (悉尼科技大学)</p>
+            <p style="font-size:16px;"> Email: Dianer.Yu-1@student.uts.edu.au / yde244910158@gmail.com</p>
+            <p style="font-size:16px;">
+              Visit my 
+              <a href="https://scholar.google.com/citations?user=gZnR4bIAAAAJ&hl=en" target="_blank">Google Scholar</a> | 
+              <a href="https://www.researchgate.net/profile/Dianer-Yu" target="_blank">ResearchGate</a> |
+              <a href="https://www.linkedin.com/in/dianer-yu-330448144/" target="_blank">LinkedIn</a> |
+              for more detail information.
+            </p>
+            <strong>I am actively seeking a position in academia where I can contribute my research expertise, teaching skills, and programming proficiency.</strong>
+
+          </div>
+        </div>
+      </div>
+
+     
+
+
+
+
+      <div class="section">
+        <div class="row">
+          <div class="col-md-12" style="text-align: justify;">
+            <h3>About Me</h3>
+
             <p>My name is <strong>Dianer Yu</strong>, a <strong>Data Science Ph.D. candidate</strong> in the <strong><a href="http://dsmi.tech/" target="_blank">DSMI Lab</a></strong> and an <strong>Academic Tutor</strong> at the School of Computer Science, Faculty of Engineering and Information Technology, University of Technology Sydney (UTS), under the supervision of <strong><a href="https://profiles.uts.edu.au/Guandong.Xu" target="_blank">Chair Prof. Guandong Xu</a></strong> and <strong><a href="https://staffportal.curtin.edu.au/staff/profile/view/qian-li-24c96504/" target="_blank">Dr. Qian Li</a></strong>. Before that, I received MSc in 2021 and BSc degrees in 2022 in Computer Science from UTS.</p>
             <p>My papers have been published in multiple top-tier conferences and journals in the field of Artificial Intelligence and Data Science, such as TKDE, WWW, SIGIR, CIKM, Neurocomputing, PAKDD, DASFAA, etc. I am proficient in many programming languages such as SQL, Java, R, and Python, enabling me to develop effective solutions to complex research problems.</p>
             <p>My general research interests involve many topics, such as:</p>
@@ -90,30 +145,21 @@
               <li>Recommendation systems</li>
               <li>Explainable machine learning</li>
             </ul>
-            <p>Email: Dianer.Yu-1@student.uts.edu.au / yde244910158@gmail.com<br>
-            Location: CB02.12, University of Technology Sydney, 15 Broadway Rd, Ultimo, NSW, 2007, Australia.</p>
-            <p>
-              Visit my 
-              <a href="https://scholar.google.com/citations?user=gZnR4bIAAAAJ&hl=en" target="_blank" class="btn btn-primary">Google Scholar</a>
-              <a href="https://www.researchgate.net/profile/Dianer-Yu" target="_blank" class="btn btn-primary">ResearchGate</a>
-              <a href="https://www.linkedin.com/in/dianer-yu-330448144/" target="_blank" class="btn btn-primary">LinkedIn</a>
-            </p>
-            <strong>I am actively seeking a position in academia where I can contribute my research expertise, teaching skills, and programming proficiency.</strong>
           </div>
         </div>
       </div>
 
       <div class="section" id="education">
-        <h2>Education</h2>
+        <h3>Education</h3>
         <ul>
           <li><strong>Doctor of Philosophy: Causal Model for Recommendation</strong><br>
           University of Technology Sydney (UTS), Sydney, Australia<br>
           Duration: Jan 2022 - current<br>
-          Supervisors: <a href="https://profiles.uts.edu.au/Guandong.Xu" target="_blank">Chair Prof. Guandong Xu</a> and <a href="https://staffportal.curtin.edu.au/staff/profile/view/qian-li-24c96504/" target="_blank">Dr. Qian Li</a></li>
+          Supervisors: <a href="https://profiles.uts.edu.au/Guandong.Xu" target="_blank">Chair Prof. Guandong Xu</a> and <a href="https://staffportal.curtin.edu.au/staff/profile/view/qian-li-24c96504/" target="_blank">Dr. Qian Li</a></li><br>
           <li><strong>Master of Information Technology</strong><br>
           University of Technology Sydney (UTS), Sydney, Australia<br>
           Duration: 2021 - 2022<br>
-          Awards: High Distinction Average, Dean's List in both 2020 and 2021</li>
+          Awards: High Distinction Average, Dean's List in both 2020 and 2021</li><br>
           <li><strong>Bachelor of Science in Information Technology</strong><br>
           University of Technology Sydney (UTS), Sydney, Australia<br>
           Duration: 2015 - 2018<br>
@@ -122,7 +168,7 @@
       </div>
 
       <div class="section" id="publications">
-        <h2>Publications</h2>
+        <h3>Publications</h3>
         <ol>
           <li><a href="https://ieeexplore.ieee.org/document/10273224" target="_blank">Counterfactual Explainable Conversational Recommendation</a><br>
           <b>DIANER YU</b>, Qian Li, Xiangmeng Wang, Qing Li, Guandong Xu.<br>
@@ -164,9 +210,7 @@
       </div>
 
       <div class="section" id="workexperience">
-        <h2>Work Experiences</h2>
-        <ul>
-          <li>
+        <h3>Work Experiences</h3>
             <strong style="font-size: larger;">Academic Tutor</strong> at <strong>University of Technology Sydney (1/2022 - current)</strong><br>
             <ul>
               <li>Providing AI-related lectures and tutorials to postgraduate and undergraduate students, such as 41004 (AI/Analytics capstone project), 42046 (Data Processing using R) and 48024 (Programming 2 Java&Python).</li>
@@ -175,9 +219,8 @@
               <li>Marking all the assignments and resolving the daily questions for students.</li>
               <li>Offering continuous support through Q&A sessions, assessments, and prompt resolution of students' daily inquiries, fostering a conducive learning environment.</li>
               <li>Collaborating with senior educators to refine course materials and teaching methodologies, contributing to the ongoing improvement of the academic curriculum.</li>
-            </ul>
-          </li><br>
-          <li>
+            </ul><br>
+
             <strong style="font-size: larger;">Developer Programmer</strong> at <strong>All Employment Solutions, Sydney (8/2018 - 2/2022)</strong><br>
             <ul>
               <li>Writing JAVA and Python program codes to create backend system and databases.</li>
@@ -189,9 +232,8 @@
               <li>Processing millions-levels data and translating facts to inform strategic business decisions.</li>
               <li>Conducting internal tests with the other departments, collecting feedbacks, and making relevant adjustments and enhancements.</li>
               <li>Formulating development plans on the basis of needs analysis and reporting to managers.</li>
-            </ul>
-          </li><br>
-          <li>
+            </ul><br>
+
             <strong style="font-size: larger;">Developer Programmer</strong> at <strong>Bedworks, Sydney (8/2019 - 4/2020)</strong><br>
             <ul>
               <li>Agile development methodology used to develop and implement an online shopping management system through PrestaShop platform.</li>
@@ -202,12 +244,10 @@
               <li>Integrate new payment method into front-end PrestaShop platform such as AfterPay payment. Change plugin and module compatibility when a new version of the plugin needs to be installed into an older version.</li>
               <li>Increase customer traffic through creating Google shopper bot tracking for GA and add Rich Snippets. Monitor and add firewall through Cloudflare service.</li>
             </ul>
-          </li>
-        </ul>
       </div>
 
       <div class="section" id="honorsawards">
-        <h2>Honors & Awards</h2>
+        <h3>Honors & Awards</h3>
         <ul>
           <li>UTS FEIT Postgraduate Dean's List, 2022</li>
           <li>UTS FEIT Postgraduate Dean's List, 2021</li>
@@ -219,7 +259,17 @@
       </div>
 
       <div class="section" id="professionalservices">
-        <h2>Services: PC Member & Reviewer</h2>
+
+
+        <h3>Professional Services</h3>
+        <strong>Teaching and Supervision Experiences:</strong>
+        <ul>
+          <li>2024: Programming 2, UTS 48024.</li>
+          <li>2023: Data Processing using R, UTS 42046; Programming 2, UTS 48024.</li>
+          <li>2022: AI/Analytics Capstone Project, UTS 41004; Data Processing using R, UTS 42046.</li>
+        </ul>
+
+        <strong>Program Committee Member & Reviewer:</strong>
         <ul>
           <li>2024: KDD, PAKDD, DASFAA, SIGIR, Supercomputing, Discover Computing</li>
           <li>2023: ICDM, KDD, PAKDD, PRICAI, SIGIR, CIKM, WSDM, EMNLP, TIST, TORS</li>
@@ -232,7 +282,7 @@
     <!-- Right Column -->
     <div class="col-md-3 right-column">
       <div class="news-section">
-        <h2>News</h2>
+        <h3>News</h3>
         <ul>
           <li>One paper is accepted by DASFAA24 on March 2024.</li>
           <li>Two papers are accepted by TKDE and TOIS on Jan 2024.</li>
